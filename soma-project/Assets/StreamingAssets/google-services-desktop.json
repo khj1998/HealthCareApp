@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "210886890732",
+    "firebase_url": "https://soma-test-928d8-default-rtdb.firebaseio.com",
+    "project_id": "soma-test-928d8",
+    "storage_bucket": "soma-test-928d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210886890732:ios:80a16a1b4b6cd6f3bb01c9",
+        "android_client_info": {
+          "package_name": "com.hahaha.lvupbody"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210886890732-n7j18cd9sudi1k881sihb23leh92m0a3.apps.googleusercontent.com"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6KyArOt4lJy3e1l7LfUrETfoN3hsAguY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
