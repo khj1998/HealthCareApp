@@ -227,8 +227,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   userChallengeScoresBackUpList: []
   inAppProductsBackupList: []
-  canBackUp: 0
-  userId: 
+  userId:
+    currentCryptoKey: 
+    hiddenValue: 
+    cryptoKey: e400570020003f006600c9008400
+    hiddenChars: 
+    inited: 1
+    fakeValue: 
+    fakeValueActive: 0
 --- !u!4 &1818666197
 Transform:
   m_ObjectHideFlags: 0
@@ -276,13 +282,11 @@ MonoBehaviour:
   UpperLoss: 0
   CoreLoss: 0
   LowerLoss: 0
-  LastExp: 
-  BlenderValue: 
   EveryPartExp: 
-  ServerFirstConnect: 0
   SingleExerCount: 0
   IsFirstLoadApp: 0
   previewOn: 0
+  IsPermissionGranted: 0
 --- !u!4 &1835334261
 Transform:
   m_ObjectHideFlags: 0
@@ -309,6 +313,7 @@ GameObject:
   - component: {fileID: 2022295179}
   - component: {fileID: 2022295178}
   - component: {fileID: 2022295177}
+  - component: {fileID: 2022295180}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -382,6 +387,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2022295180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022295176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &2031124939
 GameObject:
   m_ObjectHideFlags: 0
